@@ -1,0 +1,44 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: ClusterServiceVersion
+metadata:
+  annotations:
+    alm-examples: '[]'
+    capabilities: Basic Install
+  name: yugabyte-platform-operator.v0.0.0
+  namespace: placeholder
+spec:
+  apiservicedefinitions: {}
+  customresourcedefinitions: {}
+  description: Operator for Yugabyte Platform makes it easy to deploy and upgrade Yugabyte platform on Openshift environments.
+  displayName: Yugabyte Platform Operator
+  icon:
+  - base64data: ""
+    mediatype: ""
+  install:
+    spec:
+      deployments: null
+    strategy: ""
+  installModes:
+  - supported: false
+    type: OwnNamespace
+  - supported: false
+    type: SingleNamespace
+  - supported: false
+    type: MultiNamespace
+  - supported: true
+    type: AllNamespaces
+  keywords:
+  - database
+  - sql
+  - global-distributed sql database
+  links:
+  - name: Yugabyte Platform Operator
+    url: https://yugabyte-platform-operator.domain
+  maintainers:
+  - email: dev-admin-cloud@yugabyte.com
+    name: Yugabyte
+  maturity: alpha
+  provider:
+    name: Yugabyte Inc
+    url: https://www.yugabyte.com/
+  version: 0.0.0
