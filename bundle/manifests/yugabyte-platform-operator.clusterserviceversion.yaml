@@ -275,7 +275,7 @@ spec:
                 - --metrics-addr=127.0.0.1:8080
                 - --enable-leader-election
                 - --leader-election-id=yugabyte-platform-operator
-                image: controller:latest
+                image: baba230896/testrepo:v1.3-scratch-v1
                 name: manager
                 resources: {}
               terminationGracePeriodSeconds: 10
