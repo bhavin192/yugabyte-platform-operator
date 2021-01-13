@@ -90,7 +90,7 @@ metadata:
     capabilities: Deep Insights
     categories: Database
     certified: "true"
-    containerImage: registry.connect.redhat.com/yugabytedb/yugabyte-platform-operator:1.0.0
+    containerImage: registry.connect.redhat.com/yugabytedb/yugabyte-platform-operator:v1.3-scratch-v1
     createdAt: "2020-07-16T12:00:00Z"
     description: Operator for Yugabyte Platform makes it easy to deploy and upgrade Yugabyte platform on Openshift environments.
     operators.operatorframework.io/builder: operator-sdk-v1.3.0
@@ -324,5 +324,4 @@ spec:
   maturity: alpha
   provider:
     name: Yugabyte Inc
-    url: https://www.yugabyte.com/
   version: 0.0.1
